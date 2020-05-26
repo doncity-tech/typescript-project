@@ -1,8 +1,9 @@
-const sendInput = document.querySelector('input');
-const sendBtn = document.querySelector('button')! as HTMLInputElement;
+function add(n1: number, n2: number) {
+	return n1 + n2;
+}
 
-sendBtn.addEventListener('click', e => {
-  let num = 46;
-  console.log(+sendInput.value + num);
-  e.preventDefault();
-});
+const number1 = 5;
+const number2 = 2.8;
+
+const result = add(number1, number2);
+console.log(result);

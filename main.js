@@ -1,7 +1,7 @@
-var sendInput = document.querySelector('input');
-var sendBtn = document.querySelector('button');
-sendBtn.addEventListener('click', function (e) {
-	var num = 46;
-	console.log(+sendInput.value + num);
-	e.preventDefault();
-});
+function add(n1, n2) {
+    return n1 + n2;
+}
+var number1 = '5';
+var number2 = 2.8;
+var result = add(number1, number2);
+console.log(result);
